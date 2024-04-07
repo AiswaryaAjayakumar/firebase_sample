@@ -92,7 +92,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               content: Text("The account is already used")));
                         }
                       } catch (e) {
-                        print(e);
+                        // print(e);
                       }
                     }
                   },
